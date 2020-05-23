@@ -1,0 +1,25 @@
+{
+    "extends": "strongloop",
+    "env": {
+        "es6": true,
+        "jest": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint"],
+    "rules": {
+        "max-len": "off",
+        "quote-props": "off"
+    },
+    "overrides": [
+      {
+        "files": ["src/*.ts"],
+        "rules": {
+          "require-jsdoc": "off"
+        }
+      }
+    ]
+}

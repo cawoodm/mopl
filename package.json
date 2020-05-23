@@ -1,0 +1,29 @@
+{
+  "name": "mopl",
+  "version": "0.0.1",
+  "description": "Message Orientated Programming Language",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cawoodm/mopl.git"
+  },
+  "keywords": [
+    "messaging"
+  ],
+  "author": "Marc Cawood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cawoodm/mopl/issues"
+  },
+  "homepage": "https://github.com/cawoodm/mopl#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.4",
+    "@typescript-eslint/eslint-plugin": "^3.0.0",
+    "@typescript-eslint/parser": "^3.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-strongloop": "^2.1.0"
+  }
+}
